@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Yekan";
+    src: url("/fonts/Yekan.eot"); /* IE9 Compat Modes */
+    src: url("/fonts/Yekan.eot?#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */ url("/fonts/Yekan.woff2") format("woff2"),
+      /* Modern Browsers */ url("/fonts/Yekan.woff") format("woff"),
+      /* Modern Browsers */ url("/fonts/Yekan.otf") format("opentype"),
+      /* Open Type Font */ url("/fonts/Yekan.ttf") format("truetype"); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    font-display: auto;
+  }
+/*************************
+            CSS Reset...
+ *************************/
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ html{
+     font-size: 62.5%;
+ }
+ body{
+    background-color: #fafafa;
+    font-family: 'Yekan',Arial, sans-serif
+ }
+ /*********************************
+                UTILS...
+ **********************************/
+ .container{
+     max-width: 1360px;
+     margin-right: auto;
+     margin-left: auto;
+ }
+
+
+/*************/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:7rem;
+    box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.18);
+}
+.main-menu{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+
+}
+.main-menu li{
+    display: inline;
+}
+.logo{
+    order:-1;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: all .3s;
+}
+a:hover{
+    color: greenyellow;
+}
+.main{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.box{
+    width: 25%;
+    height: 18rem;
+    border-bottom-right-radius: 20%;
+}
+.snapp{
+    background-image: url("/images/super_app_2-450x250.jpg");
+    object-fit: cover;
+}
+.hemayat{
+    background-image: url('/images/blog-450x250.jpg');
+    object-fit: cover;
+}
+.komak{
+    background-image: url('/images/blog-450x250\ \(1\).jpg');
+    object-fit: cover;
+}
+.amniat{
+    background-image: url('/images/Safety-450x250.png');
+    object-fit: cover;
+}
+.gozaresh{
+    background-image: url('/images/call-center-1-450x250.jpg');
+    object-fit: cover;
+}
+.tamin{
+    background-image: url('/images/هزینه-درمان-کودکان-اسنپ-450x250.jpg');
+    object-fit: contain;
+}
+.box-tag span{
+    margin-top: 30%;
+    margin-right:4%;
+    background-color: greenyellow;
+    
+}
+.box-tag{
+    display: flex;
+    justify-content: flex-end;
+    font-size: medium;
+}
+.box-title{
+    display: flex;
+    justify-content: flex-end;
+    font-size: large;
+}
+h4{
+    color: tomato;
+}
